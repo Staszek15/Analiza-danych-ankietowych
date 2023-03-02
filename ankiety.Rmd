@@ -1,0 +1,28 @@
+---
+title: "Analiza danych ankietowych"
+author: "Mateusz Stasiak, Filip Oszczepaliński"
+date: "2023-03-02"
+output: 
+  pdf_document:
+    number_sections: true
+    toc: true
+    toc_depth: 3
+toc-title : "Spis treści"
+header-includes:
+  - \usepackage{graphicx}
+  - \usepackage{float}
+  - \floatplacement{figure}{H}
+  - \usepackage{titling}
+  - \pretitle{\begin{center}
+    \includegraphics{logo_pwr.png}\LARGE\\}
+  - \posttitle{\end{center}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+
+# Wprowadzenie
+
