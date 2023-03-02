@@ -26,3 +26,21 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Wprowadzenie
 
+# Dane 
+Dane do raportu otrzymano na laboratorium z przedmiotu "Analiza danych ankietowych". Dotyczą 
+
+## Opis zmiennych
+
+## Wczytanie danych
+Dane zostały wczytane z pliku .csv za pomocą funkcji read.table(). Jako argumenty należy podać separator oraz informację, że dane zawierają nagłówki. Definiujemy również listę wartości, które uznajemy za brak danych.
+```{r, include=TRUE}
+dane <- 9
+```
+Dzięki złożeniu funkcji sum(is.na()) wiemy, że nasze dane nie zawierają braków.
+
+# Cel raportu
+Przeprowadzane analizy mają prowadzić do odpowiedzi na kilka pytań badawczych:
+
+# Podsumowanie
+Wszystkie przedstawione powyżej rozumowania, wykresy i wyciągnięte z nich wnioski pozwoliły kompletnie
+zrealizować wszystkie cele postawione na początku raportu.
