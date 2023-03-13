@@ -15,20 +15,7 @@ my_data$S <- factor(my_data$S)
 #####################
 
 View(data)
-table(data['A1'])
 
-data %>% group_by(A1) %>% count()
-
-################
-
-data_female <- data %>% filter(P ==  'K')
-
-table(data_female['A1'])
-
-data_female %>% group_by(A1) %>% count()
-####################
-
-table(data['A2'])
 
 ##################### Data Frame dla poszczegółnych grup ############################
 
@@ -77,7 +64,66 @@ data_education_seco <- data_education_seco[,!names(data_education_seco) %in% c("
 data_education_high <- data %>% filter(Wyk ==  3)
 data_education_high <- data_education_high[,!names(data_education_high) %in% c("Wyk")]
 
+############### ZAD 1 #########################
+# 2 SPOSOBY 
 
+#table(data['A1'])
+
+#data %>% group_by(A1) %>% count()
+
+################ A1#################
+
+# OGÓLNY
+
+table(data['A1'])
+
+data %>% group_by(A1) %>% count()
+
+# NA PODGRUPY
+
+table(data_female['A1'])
+
+table(data_male['A1'])
+
+table(data_supply['A1'])
+
+table(data_working['A1'])
+
+table(data_sale['A1'])
+
+table(data_service['A1'])
+
+table(data_education_vocat['A1'])
+
+table(data_education_seco['A1'])
+
+table(data_education_high['A1'])
+
+#################### W1 ##################
+
+# OGÓLNY
+
+table(data['W1'])
+
+# PODGRUPY
+
+table(data_female['W1'])
+
+table(data_male['W1'])
+
+table(data_supply['W1'])
+
+table(data_working['W1'])
+
+table(data_sale['W1'])
+
+table(data_service['W1'])
+
+table(data_education_vocat['W1'])
+
+table(data_education_seco['W1'])
+
+table(data_education_high['W1'])
 
 
 
