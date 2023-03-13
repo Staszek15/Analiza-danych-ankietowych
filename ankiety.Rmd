@@ -44,3 +44,4 @@ Przeprowadzane analizy mają prowadzić do odpowiedzi na kilka pytań badawczych
 # Podsumowanie
 Wszystkie przedstawione powyżej rozumowania, wykresy i wyciągnięte z nich wnioski pozwoliły kompletnie
 zrealizować wszystkie cele postawione na początku raportu.
+\section
